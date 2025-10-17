@@ -23,9 +23,13 @@ src/
 │   ├── __init__.py
 │   └── send_transcript.py # Implements the transcript API for sending conversation details
 │
-└── miscellaneous/
-    ├── __init__.py
-    └── main.py            # Entry point that fetches the value of the environment
+├── miscellaneous/
+│   ├── __init__.py
+│   └── main.py            # Entry point that fetches the value of the environment
+├── admin/
+│   ├── init/
+│   │   └── start_script.py  # Script to start interaction by prompting user input details
+
 ```
 
 Each subfolder has an `__init__.py` to ensure it’s recognized as a valid Python package.
