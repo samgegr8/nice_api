@@ -94,6 +94,7 @@ CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 USERNAME = os.getenv("USERNAME")
 PASSWORD = os.getenv("PASSWORD")
 TENANT_ID = os.getenv("TENANT_ID")
+TOKEN_URL = os.getenv("TOKEN_URL")
 ```
 
 ***
