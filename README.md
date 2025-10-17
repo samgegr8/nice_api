@@ -1,11 +1,9 @@
-Here’s your **complete README.md** incorporating all prior details and the additional instruction that access to the CXone APIs requires registration and credential setup using NICE CXone’s official developer onboarding process.[1][2][3][4]
-
-***
-
 # NICE CXone API Integration Project
 
 ## Overview
-This repository contains a modular Python project for integrating with the **NICE CXone Digital Engagement (Mpower) APIs**, including features for authentication, tenant configuration discovery, and sending conversation transcripts.
+This repository contains a modular Python project for integrating with the **NICE CXone APIs**, including features for authentication, tenant configuration discovery, and sending conversation transcripts.
+
+More APIs would be added and presently its just a starter pack where you can spin up your authentication framework and call basic APIs
 
 The project is structured for clarity and maintainability, separating authentication, API communication, and execution logic across distinct packages.
 
