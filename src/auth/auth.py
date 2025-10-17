@@ -1,8 +1,7 @@
 import requests
 from requests.auth import HTTPBasicAuth
 
-def get_auth_token(client_id, client_secret, username, password):
-    url = "https://cxone.niceincontact.com/auth/token"
+def get_auth_token(client_id, client_secret, username, password,url):
     headers = {
         "Content-Type": "application/x-www-form-urlencoded"
     }
@@ -13,7 +12,7 @@ def get_auth_token(client_id, client_secret, username, password):
     }
 
     auth = HTTPBasicAuth(client_id, client_secret)
-    response = requests.post(url, headers=headers, data=data, auth=auth)
+    response = requests.post(url=url, headers=headers, data=data, auth=auth)
     if response.status_code == 200:
         token_data = response.json()
         return token_data.get("access_token")

@@ -25,7 +25,7 @@ src/
 │
 └── miscellaneous/
     ├── __init__.py
-    └── main.py            # Entry point that executes the flow
+    └── main.py            # Entry point that fetches the value of the environment
 ```
 
 Each subfolder has an `__init__.py` to ensure it’s recognized as a valid Python package.
@@ -81,6 +81,7 @@ CLIENT_SECRET = "your_client_secret_here"
 USERNAME = "your_username_here"
 PASSWORD = "your_password_here"
 TENANT_ID = "your_tenant_id_here"
+TOKEN_URL = "your_auth_token_url"
 ```
 
 Alternatively, if you prefer environment variables (recommended for deployment):
@@ -99,10 +100,11 @@ TENANT_ID = os.getenv("TENANT_ID")
 
 ## Running the Script
 
+This is an Example
 From your project’s **root directory**, execute:
 
 ```bash
-python -m src.miscellaneous.main
+python -m src.digital_engagenment.send_transcript
 ```
 
 This will:

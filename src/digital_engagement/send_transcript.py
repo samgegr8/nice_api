@@ -32,7 +32,7 @@ def send_transcript(api_endpoint, access_token, contact_id, email):
 
 if __name__ == "__main__":
     try:
-        token = get_auth_token(config.CLIENT_ID, config.CLIENT_SECRET, config.USERNAME, config.PASSWORD)
+        token = get_auth_token(config.CLIENT_ID, config.CLIENT_SECRET, config.USERNAME, config.PASSWORD,config.TOKEN_URL)
         print("Access Token:", token)
 
         tenant_info = get_tenant_configuration(config.TENANT_ID)

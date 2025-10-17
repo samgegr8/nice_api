@@ -7,7 +7,8 @@ if __name__ == "__main__":
             config.CLIENT_ID,
             config.CLIENT_SECRET,
             config.USERNAME,
-            config.PASSWORD
+            config.PASSWORD,
+            config.TOKEN_URL
         )
         print("Access Token:", token)
         
