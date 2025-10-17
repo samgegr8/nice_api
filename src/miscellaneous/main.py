@@ -1,10 +1,14 @@
-## main.py
-from auth import get_auth_token, get_tenant_configuration
-import config
+from src.auth.auth import get_auth_token, get_tenant_configuration
+import src.auth.config as config  # use alias here
 
 if __name__ == "__main__":
     try:
-        token = get_auth_token(config.CLIENT_ID, config.CLIENT_SECRET, config.USERNAME, config.PASSWORD)
+        token = get_auth_token(
+            config.CLIENT_ID,
+            config.CLIENT_SECRET,
+            config.USERNAME,
+            config.PASSWORD
+        )
         print("Access Token:", token)
         
         tenant_info = get_tenant_configuration(config.TENANT_ID)

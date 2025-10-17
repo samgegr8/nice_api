@@ -1,5 +1,5 @@
-from auth import get_auth_token, get_tenant_configuration
-import config
+from src.auth.auth import get_auth_token, get_tenant_configuration
+import src.auth.config as config 
 import requests
 
 
