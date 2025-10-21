@@ -1,9 +1,3 @@
-Here’s a clean, professional **README markdown file** named `skill_activity.md` that documents your script clearly and concisely:  
-
-***
-
-### `skill_activity.md`
-
 # Skill Activity API Script
 
 This script retrieves real-time agent activity data for a given **Skill ID** from the NICE CXone (inContact) platform using the **Skill Activity API**. It authenticates using a bearer token and displays a summary of agent state counts including idle, ACW, available, and working statuses.
@@ -125,7 +119,3 @@ pip install requests
 
 - The `get_auth_token()` and `get_tenant_configuration()` helper functions are expected to be defined in `src/auth/auth.py`.
 - Ensure your credentials are valid and your network allows outbound HTTPS requests to the CXone API endpoint.
-
-***
-
-Would you like the README expanded with a **sample JSON response** and **response parsing explanation** (useful for developers or documentation completeness)?
