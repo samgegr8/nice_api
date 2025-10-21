@@ -29,6 +29,9 @@ src/
 ├── admin/
 │   ├── init/
 │   │   └── start_script.py  # Script to start interaction by prompting user input details
+├── realtime_data/
+│   ├── init/
+│   │   └── skill_activity.py  # Script for health check of a skill
 
 ```
 
