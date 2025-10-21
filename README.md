@@ -135,7 +135,7 @@ Area: au1
 Cluster: A32
 
 Enter contact ID: 682956606682XXXXX
-Enter recipient email: samrat.som@nice.com
+Enter recipient email: samrat.XXXX@nice.com
 Transcript API response: {'status_code': 202, 'message': 'Accepted'}
 ```
 
