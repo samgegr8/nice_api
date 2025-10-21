@@ -134,7 +134,7 @@ Domain: niceincontact.com
 Area: au1
 Cluster: A32
 
-Enter contact ID: 682956606682
+Enter contact ID: 682956606682323
 Enter recipient email: samrat.som@nice.com
 Transcript API response: {'status_code': 202, 'message': 'Accepted'}
 ```
