@@ -189,5 +189,3 @@ This prevents local credentials from ever being committed or pushed to GitHub.
   ```
 
 ***
-
-This README follows best practices for Python API integration projects. It ensures clear onboarding steps, secure configuration handling, and proper documentation for NICE CXone tenant developers.
