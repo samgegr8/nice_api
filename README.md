@@ -21,7 +21,9 @@ src/
 │
 ├── digital_engagement/
 │   ├── __init__.py
-│   └── send_transcript.py # Implements the transcript API for sending conversation details
+│   ├── send_transcript.py # Implements the transcript API for sending conversation details
+│   ├── abandonStatus.py   # API to abandon the case 
+│   └── changeStatus.py    # Implements the changeStatus API to change the status of the case
 │
 ├── miscellaneous/
 │   ├── __init__.py
