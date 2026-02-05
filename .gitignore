@@ -22,3 +22,6 @@ dist/
 
 # Ignore config file with secrets
 config.py
+
+# Ignore the Layer for AWS deployment purpose only
+layer_build/
